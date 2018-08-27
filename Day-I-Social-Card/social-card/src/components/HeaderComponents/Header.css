@@ -1,1 +1,39 @@
 /* All styles for your header Components live here */
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+.img-thumbnail {
+  /* border: 1px solid yellow; */
+}
+
+.img-thumbnail-red {
+  width: 55px;
+  height: 55px;
+  background-color: red;
+  /* border: 1px solid black; */
+}
+
+.headerContainer-text {
+  max-width: 600px;
+  width: 88%;
+  margin: 5px 0;
+  /* border: 1px solid pink; */
+}
+
+.headerTitle {
+  display: flex;
+  margin-bottom: 8px;
+  border: 1px solid green;
+}
+
+.headerTitle p {
+  margin: 0 5px;
+}
+
+.headerContent {
+  line-height: 16px;
+  /* border: 1px solid blue; */
+}
